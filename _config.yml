@@ -100,17 +100,14 @@ author:
   location         : "San Jose, CA"
   email            : "kshadep7@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:kshadep7@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://kshadep7.github.io"
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://kshadep7.github.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/kshadep7"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-link"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/akashadep"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
@@ -294,3 +291,11 @@ defaults:
       comments: # true
       share: true
       related: true
+
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
