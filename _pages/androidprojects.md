@@ -1,12 +1,12 @@
 ---
-layout: archive
-permalink: /android-projects/
-title: "Android Development Projects"
-author_profile: true
+layout			: archive
+permalink		: /android-projects/
+title 			: "Android Projects"
+author_profile	: true
 
 ---
 
-{% include base_path %}
+<!-- {% include base_path %} -->
 {% include group-by-array collection=site.posts field="tags" %}
 
 {% for tag in group_names %}
