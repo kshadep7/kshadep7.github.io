@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Akash Adep"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/me.jpg"  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Experienced Android Developer with a keen interest in Data Science and ML"
   location         : "San Jose, CA"
   email            : "kshadep7@gmail.com"
@@ -139,7 +139,7 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/kshadep7"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-link"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/akashadep"
 
     # - label: "GitLab"
